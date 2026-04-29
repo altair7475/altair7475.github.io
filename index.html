@@ -25,7 +25,7 @@ border-bottom:2px dotted #e2e8f0;
 padding-bottom:8px;
 }
 
-.flip-card{
+.flipcard{
 background:transparent;
 width:80%;
 height:320px;
@@ -34,7 +34,7 @@ perspective:1000px;
 cursor:pointer;
 }
 
-.flip-card-inner{
+.flipCin{
 position:relative;
 width:100%;
 height:100%;
@@ -42,12 +42,12 @@ transition:transform .8s;
 transform-style:preserve-3d;
 }
 
-.flip-card.flipped .flip-card-inner{
+.flipCfloped .flipCin{
 transform:rotateY(180deg);
 }
 
-.flip-card-front,
-.flip-card-back{
+.flipCF,
+.flipCB{
 position:absolute;
 width:100%;
 height:100%;
@@ -59,25 +59,25 @@ padding:30px;
 box-sizing:border-box;
 }
 
-.flip-card-front{
+.flipCF{
 display:flex;
 justify-content:center;
 align-items:center;
 }
 
-.flip-card-front h2{
+.flipCF h2{
 font-size:2.2em;
 color:#8a2be2;
 border:none;
 margin:0;
 }
 
-.flip-card-back{
+.flipCB{
 transform:rotateY(180deg);
 overflow:auto;
 }
 
-.flip-card-back h2{
+.flipCB h2{
 color:#8a2be2;
 border-bottom:2px solid #e2e8f0;
 padding-bottom:5px;
@@ -113,12 +113,12 @@ border-radius:12px;
 </header>
 
 
-<div class="flip-card" onclick="this.classList.toggle('flipped')">
-<div class="flip-card-inner">
-<div class="flip-card-front">
+<div class="flipcard" onclick="this.classList.toggle('flipped')">
+<div class="flipCin">
+<div class="flipCF">
 <h2>Section 1</h2>
 </div>
-<div class="flip-card-back">
+<div class="flipCB">
 <h2>Section 1</h2>
 <p>my name is Haysab (hay-sub).</p>
 <p>i like playing games and im looking to get into a cybersecurity course after the end of the pfp programme.</p>
@@ -128,12 +128,12 @@ border-radius:12px;
 </div>
 
 
-<div class="flip-card" onclick="this.classList.toggle('flipped')">
-<div class="flip-card-inner">
-<div class="flip-card-front">
+<div class="flipcard" onclick="this.classList.toggle('flipped')">
+<div class="flipCin">
+<div class="flipCF">
 <h2>Section 2</h2>
 </div>
-<div class="flip-card-back">
+<div class="flipCB">
 <h2>Section 2</h2>
 <p>currently doing PFP in NYP.</p>
 <p>i was from Yishun Secondary School.</p>
@@ -143,12 +143,12 @@ border-radius:12px;
 </div>
 
 
-<div class="flip-card" onclick="this.classList.toggle('flipped')">
-<div class="flip-card-inner">
-<div class="flip-card-front">
+<div class="flipcard" onclick="this.classList.toggle('flipped')">
+<div class="flipCin">
+<div class="flipCF">
 <h2>Section 3</h2>
 </div>
-<div class="flip-card-back">
+<div class="flipCB">
 <h2>Section 3</h2>
 <p>scored at the top of my cohort for 3 years in a row during secondary school!!!!</p>
 <p>personal milestones would be become more independant as i have started paying some of my subscriptions like mobile data or my laptop with my own hardearned money from working.</p>
@@ -157,12 +157,12 @@ border-radius:12px;
 </div>
 
 
-<div class="flip-card" onclick="this.classList.toggle('flipped')">
-<div class="flip-card-inner">
-<div class="flip-card-front">
+<div class="flipcard" onclick="this.classList.toggle('flipped')">
+<div class="flipCin">
+<div class="flipCF">
 <h2>Section 4</h2>
 </div>
-<div class="flip-card-back">
+<div class="flipCB">
 <h2>Section 4</h2>
 <p>i like playing competitive games like league of legends, or r6 siege.</p>
 <p>i like to play games because studying is boring and there is nothing to do outside.</p>
@@ -173,14 +173,14 @@ border-radius:12px;
 </div>
 
 
-<div class="flip-card" style="height:520px;" onclick="this.classList.toggle('flipped')">
-<div class="flip-card-inner">
+<div class="flipcard" style="height:520px;" onclick="this.classList.toggle('flipped')">
+<div class="flipCin">
 
-<div class="flip-card-front">
+<div class="flipCF">
 <h2>Section 5</h2>
 </div>
 
-<div class="flip-card-back">
+<div class="flipCB">
 <h2></h2>
 
 <div style="text-align:center;">
@@ -196,12 +196,12 @@ border-radius:12px;
 </div>
 
 
-<div class="flip-card" onclick="this.classList.toggle('flipped')">
-<div class="flip-card-inner">
-<div class="flip-card-front">
+<div class="flipcard" onclick="this.classList.toggle('flipped')">
+<div class="flipCin">
+<div class="flipCF">
 <h2>Section 6</h2>
 </div>
-<div class="flip-card-back">
+<div class="flipCB">
 <h2>Section 6</h2>
 <p>some of my projects can be found on my roblox profile</p>
 <p>click on the link > creations</p>
@@ -215,12 +215,12 @@ link
 </div>
 
 
-<div class="flip-card" onclick="this.classList.toggle('flipped')">
-<div class="flip-card-inner">
-<div class="flip-card-front">
+<div class="flipcard" onclick="this.classList.toggle('flipped')">
+<div class="flipCin">
+<div class="flipCF">
 <h2>Sources</h2>
 </div>
-<div class="flip-card-back">
+<div class="flipCB">
 <h2>Sources</h2>
 
 <p>flip card tutorial on youtube to make the flip cards</p>
